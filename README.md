@@ -1,1 +1,2 @@
 # coding-challenge-7
+This challnege is similar to the last we had where we take an html file that served as a feedback form and incorporate java script into it. This includes forms for a customers name, a rating 1-5, a comment section, and an element that will display feedback after submitted. We also implement code that will avoid a default version of a form submission being submitted to prevent reload of the page, validation that fields are filled out, and a feedback form for successful submission. This was definitely a challenge and was a huge learning experience. 
