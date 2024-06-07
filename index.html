@@ -2,28 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"  content="width=device-width,initial-scale =1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
 </head>
 <body>
-    <form id="feedback form">
+    <form id="feedback-form">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" required>
+
         <label for="rating">Rating:</label>
         <select id="rating" name="rating" required>
-        <option value="">Select rating</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-    </select><br><br>
-    <label for="comments">Comments:</label><br>
-    <textarea id="comments" name="comments" required></textarea> 
-    <button type="button">Submit!</button>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" required></textarea>
+
+        <button type="submit">Submit</button>
     </form>
-    <div id="feedback-Display"></div>
-    <script src="script.js</script>
-    
+
+    <div id="feedback-display"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
